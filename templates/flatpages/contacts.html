@@ -1,0 +1,13 @@
+{% extends 'flatpages/default.html' %}
+ {% load static %}
+
+{% block title %}
+{{ flatpage.title }}
+{% endblock title %}
+
+
+{% block content %}
+<h3>Please contact us </h3>
+<br>
+<strong>{{flatpage.content}}</strong>
+{% endblock content %}
